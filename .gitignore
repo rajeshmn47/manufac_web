@@ -11,7 +11,9 @@
 
 # production
 /build
-
+/yar.lock
+/.eslintrc.json
+/.gitignore
 # misc
 .DS_Store
 .env.local
