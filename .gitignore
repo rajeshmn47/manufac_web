@@ -11,9 +11,10 @@
 
 # production
 /build
-/yar.lock
+/yarn.lock
 /.eslintrc.json
 /.gitignore
+/.prettierrc
 # misc
 .DS_Store
 .env.local
