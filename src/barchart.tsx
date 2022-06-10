@@ -19,7 +19,7 @@ const Barchart: React.FC = () => {
         data: data.filter((d,index)=>(index===1)||
         (index%14===1)),
         type: 'bar',
-        name: 'alchohal vs molic acid',
+        name: 'Alchohal vs Molic Acid',
         smooth: true,
       },
     ],
@@ -30,8 +30,8 @@ const Barchart: React.FC = () => {
 
   return (
     <>
-    <h1 style={{textAlign:'center'}}>bar chart</h1>
-    <h1 style={{textAlign:'center',color:'red'}}>Alchohal vs Malic acid</h1>
+    <h1 style={{textAlign:'center'}}>Bar Chart</h1>
+    <h1 style={{textAlign:'center',color:'red'}}>Alchohal (x-axis) vs Malic acid (y-axis)</h1>
   <ReactEcharts option={options} />;
   </>)
 };

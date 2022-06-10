@@ -19,7 +19,7 @@ const Scatterredchart: React.FC = () => {
         data: data.filter((d,index)=>(index===11)||
         (index%14===11)),
         type: 'scatter',
-        name: 'alchohal vs molic acid',
+        name: 'Color Intensity vs Hue',
         smooth: true,
       },
     ],
@@ -29,8 +29,8 @@ const Scatterredchart: React.FC = () => {
   };
 
   return (<>
-     <h1 style={{textAlign:'center'}}>Scatter plot</h1>
-     <h1 style={{textAlign:'center',color:'red'}}>Color Intensity vs Hue</h1>
+     <h1 style={{textAlign:'center'}}>Scatter Plot</h1>
+     <h1 style={{textAlign:'center',color:'red'}}>Color Intensity (x-axis) vs Hue (y-axis)</h1>
   <ReactEcharts option={options} />
   </>
   );

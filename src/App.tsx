@@ -6,7 +6,7 @@ import Scatteredchart from './scatteredchart'
 
 function App() {
  return(
-  <div>
+  <div className='charts'>
  <Barchart/>
  <Scatteredchart/>
   </div>
